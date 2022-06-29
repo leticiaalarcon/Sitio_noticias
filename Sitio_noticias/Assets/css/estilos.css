@@ -1,0 +1,415 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    font-family: 'Koulen', "cursive";
+    margin: 0;
+    background-color: rgb(226, 0, 0);
+    min-height: 100%;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.20em;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    background-color: rgba(228, 0, 0, 0.94);
+
+}
+
+header .redfilm {
+    margin: 0;
+    padding: 20px 25px;
+    font-weight: bold;
+    color: black;
+    font-size: 1.50em;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(91, 17, 17);
+}
+
+header a:hover {
+    color: rgb(121, 32, 32);
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    color: rgb(255, 0, 0);
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(media/one-piece-film-red.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+#bajada {
+    font-family: 'Roboto', sans-serif;
+}
+
+#bajada .container {
+    text-align: center;
+    padding: 50px 6px;
+}
+
+#nuevos-carteles {
+    background-color: rgba(30, 30, 30);
+    color: brown;
+    text-align: center;
+}
+
+#nuevos-carteles .container {
+    padding: 50px 0px;
+}
+
+#nuevos-carteles h2 {
+    margin-top: 0;
+    font-size: 3em;
+}
+
+#nuevos-carteles p {
+    display: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+#nuevos-carteles .carteles {
+    background-position: center center;
+    background-size: cover;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 50px 10px;
+
+}
+
+.carteles:first-child {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.78),
+            rgba(0, 0, 0, 0.78)), url(media/usopp.jpg);
+    background-position: top;
+    background-size: cover;
+    padding: 100px;
+    margin: 15px;
+    border-radius: 10px;
+    width: 700px;
+    height: 450px;
+}
+
+
+.carteles:nth-child(2) {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.78),
+            rgba(0, 0, 0, 0.78)), url(media/Sanji.jpg);
+    background-position: top;
+    background-size: cover;
+    padding: 100px;
+    margin: 15px;
+    border-radius: 10px;
+    width: 700px;
+    height: 450px;
+}
+
+.carteles:nth-child(3) {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.78),
+            rgba(0, 0, 0, 0.78)), url(media/Chopper.jpg);
+    background-position: top;
+    background-size: cover;
+    padding: 100px;
+    margin: 15px;
+    border-radius: 10px;
+    width: 700px;
+    height: 450px;
+}
+
+.carteles:nth-child(4) {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.78),
+            rgba(0, 0, 0, 0.78)), url(media/Robin.jpg);
+    background-position: top;
+    background-size: cover;
+    padding: 100px;
+    margin: 15px;
+    border-radius: 10px;
+    width: 700px;
+    height: 450px;
+}
+
+#parrafos .container {
+    text-align: center;
+    padding: 100px 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#eiichiro-oda p {
+    font-family: 'Roboto', sans-serif;
+}
+
+#eiichiro-oda .container {
+    text-align: center;
+    padding: 100px 12px;
+}
+
+#hiatus p{ 
+    text-align: center;
+    font-weight: 450;
+}
+
+#hiatus .container {
+    padding: 100px 60px;
+    font-family: 'roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130vh;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.78),
+            rgba(0, 0, 0, 0.78)), url(media/cataoda.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgb(204, 204, 204);
+    background-position: center;
+
+    
+
+}
+
+#emisión-internacional .container{
+    text-align: center;
+    padding: 100px 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#emisión-internacional h2{
+    font-family: 'Koulen', "cursive";
+}
+
+footer {
+    background-color: black;
+
+}
+
+footer p {
+    margin: 0;
+    padding: 12px;
+    color: brown;
+}
+
+footer .container {
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+@media (min-width:720px) {
+
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #nuevos-carteles .nuevoscarteles {
+        display: flex;
+        justify-content: center;
+    }
+
+    #nuevos-carteles p {
+        display: block;
+        color: rgb(204, 204, 204);
+        text-align: center;
+
+
+    }
+
+    #nuevos-carteles h3 {
+        margin-top: 0;
+        color: rgb(255, 0, 0);
+    }
+
+    #nuevos-carteles .carteles {}
+
+    #hero h1 {
+        font-size: 4em;
+    }
+
+    #parrafos .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #parrafos p {
+        width: 50%;
+        text-align: justify;
+        padding: 0px 30px;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5px;
+   
+    }
+
+    #parrafos .img-container {
+        background-image: url(media/luffy.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+    #emisión-internacional .img-container{
+        background-image: url(media/poster-red-film.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 300px;
+        float: left;
+    }
+
+    #emisión-internacional p{
+        width: 75%;
+        padding: 0px 50px;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5px;
+    }
+
+#emisión-internacional .container{
+   
+    
+}
+
+
+
+
+    #eiichiro-oda {
+        background-color: rgba(30, 30, 30);
+
+    }
+
+    #eiichiro-oda .container {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    #eiichiro-oda h2 {
+        margin-top: 0;
+        justify-content: center;
+        text-align: center;
+        padding: 40px 10px;
+        color: rgb(255, 0, 0);
+    }
+
+    #eiichiro-oda p {
+        width: 50%;
+        text-align: initial;
+        padding: 0px 20px;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: brown;
+
+
+    }
+
+    #eiichiro-oda .img-container {
+        background-image: url(media/Eiichiro-oda.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center center;
+        height: 470px;
+        width: 400px;
+        padding: 30px 0px;
+
+    }
+
+    #hiatus .container{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    #hiatus p{
+        width: 50%;
+        text-align: justify;
+        padding: 0px 20px;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+  #hiatus h2{
+    text-align: center;
+    font-size: 2.9em;
+  }
+
+    #hiatus .img-container{
+       
+    }
+}
